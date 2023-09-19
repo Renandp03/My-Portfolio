@@ -1,0 +1,54 @@
+@use '../../../styles/variables'
+
+#Introduction
+    position: relative
+    padding: 60px 90px
+    width: 100vw
+    height: 100vh
+    overflow: hidden
+    display: flex
+    justify-content: space-between
+    @media( max-width: 750px)
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        padding: 30px
+
+
+.Introduction__Title
+    font-size: 46px
+    color: variables.$color-dark
+    font-family: variables.$introduction-font-family
+    margin: 60px 0
+    @media ( max-width: 1050px )
+        color: #777
+    @media( max-width: 600px)
+        color: variables.$color-light
+        font-size: 32px
+
+.Introduction__Title--Colorful
+    font-size: 50px
+    color: variables.$primary-color
+    @media( max-width: 600px)
+        font-size: 36px
+
+.Introduction__Detail
+    width: 616.368px
+    height: 1237.731px
+    z-index: -1
+    transform: rotate(-45deg)
+
+    position: absolute
+    top: -450px
+    right: -100px
+
+    background:#0F0202
+
+.Introduction__Img
+    width: 35vw
+    min-width: 300px
+
+    
+
+    @media( max-width: 600px)
+       
