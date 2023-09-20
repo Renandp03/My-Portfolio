@@ -1,6 +1,8 @@
 function TecList(){
     return(
-        <></>
+        <div className="TecList">
+            
+        </div>
     )
 }
 

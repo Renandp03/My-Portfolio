@@ -2,24 +2,30 @@
 
 #Introduction
     position: relative
-    padding: 60px 90px
+    padding: 0 90px
     width: 100vw
     height: 100vh
     overflow: hidden
     display: flex
     justify-content: space-between
+    align-items: center
     @media( max-width: 750px)
         flex-direction: column
-        justify-content: center
-        align-items: center
         padding: 30px
+        gap: 50px
 
+.Introduction__Title_Space
+    display: grid
+    gap: 30px
+    @media( max-width: 750px )
+        gap: 20px
 
 .Introduction__Title
     font-size: 46px
     color: variables.$color-dark
     font-family: variables.$introduction-font-family
-    margin: 60px 0
+    font-weight: 700
+    margin-top: 60px
     @media ( max-width: 1050px )
         color: #777
     @media( max-width: 600px)
@@ -31,6 +37,10 @@
     color: variables.$primary-color
     @media( max-width: 600px)
         font-size: 36px
+
+.Introduction__Text
+    font-size: 24px
+    color: #777
 
 .Introduction__Detail
     width: 616.368px
@@ -47,8 +57,4 @@
 .Introduction__Img
     width: 35vw
     min-width: 300px
-
-    
-
-    @media( max-width: 600px)
        

@@ -1,16 +1,21 @@
 @use '../../../styles/variables'
 
 #About
-    background: variables.$color-dark
+    background: #E6E6E6
     padding: 50px 90px
+    border-top: 1px solid #DDD
+    @media( max-width: 500px )
+        padding: 30px
 
 .About__Title
-    color: variables.$color-light
+    color: variables.$color-dark
     margin-bottom: 20px 
+    font-family: variables.$second-font
 
 .About__Detail
     color: variables.$primary-color
 
 .About__Text
-    color: variables.$about-color-text
+    color: variables.$color-dark
     font-size: 18px
+    opacity: .6
