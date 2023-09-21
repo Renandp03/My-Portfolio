@@ -1,8 +1,11 @@
 function TecList(){
     return(
-        <div className="TecList">
+        <ul className='TecList'>
             
-        </div>
+            <li className='Tec'>React</li>
+            <li className='Tec'>React</li>
+            <li className='Tec'>React</li>
+        </ul>
     )
 }
 
