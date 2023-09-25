@@ -1,9 +1,15 @@
 @use '../../../styles/variables'
 
 #About
+    display: grid
+    grid-template-columns: minmax(350px, 500px) 1fr
+    justify-content: start
     background: #E6E6E6
     padding: 50px 90px
     border-top: 1px solid #DDD
+    @media( max-width: 850px )
+        grid-template-columns: 1fr
+        gap: 40px
     @media( max-width: 500px )
         padding: 30px
 

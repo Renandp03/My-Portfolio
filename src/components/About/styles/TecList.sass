@@ -4,21 +4,31 @@
     display: grid
     grid-template-columns: 1fr 1fr 1fr 1fr
     justify-items: center
-    margin: 50px 0
     gap: 20px 4px
-   
+
+.TecList__Title
+    grid-column: 1 / -1
+    text-align: center
+    color: variables.$color-dark
+    font-family: variables.$second-font
+    font-size: 26px
+
+ 
+.TecList__Link
+    display: grid
+    place-items: center
+    text-decoration: none
+    color: variables.$color-dark
+    font-weight: 500
+    gap: 5px
+    &:hover
+        gap: 0
+        svg
+            width: 55px
+            height: 55px
+
+
 .TecList__Icon
     width: 50px
     height: 50px
-
-#HTML5
-    color: #e34c26
-
-#CSS3
-    color: #264de4
-    
-#React
-    color: #61dafb 
-
-#Node
-    color: #3c873a 
+        
