@@ -1,4 +1,4 @@
-import { GitHubIcon, LinkedInIcon, InstagramIcon,WhatsAppIcon } from '../../../../public/Icons'
+import { GitHubIcon, LinkedInIcon, InstagramIcon,WhatsAppIcon, EmailIcon} from '../../../../public/Icons'
 import '../styles/Links.sass'
 
 function Links(){

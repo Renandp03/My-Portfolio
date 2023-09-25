@@ -15,10 +15,10 @@ function TecList(){
         {name:'Vite',icon:<Vite className={ICONS_CLASSNAME}/>, link:'https://vitejs.dev/'},
         {name:'SASS',icon:<SASS className={ICONS_CLASSNAME}/>, link:'https://sass-lang.com/documentation/'},
         {name:'Node',icon:<Node className={ICONS_CLASSNAME}/>, link:'https://nodejs.org/en/docs'},
+        {name:'Nest',icon:<Nest className={ICONS_CLASSNAME}/>, link:'https://docs.nestjs.com/'},
         {name:'MongoDB',icon:<MongoDB className={ICONS_CLASSNAME}/>, link:'https://www.mongodb.com/pt-br'},
         {name:'PostgreSQL',icon:<PostgreSQL className={ICONS_CLASSNAME}/>, link:'https://www.postgresql.org/docs/'},
         {name:'Jest',icon:<Jest className={ICONS_CLASSNAME}/>, link:'https://jestjs.io/'},
-        {name:'Nest',icon:<Nest className={ICONS_CLASSNAME}/>, link:'https://docs.nestjs.com/'},
     ]
 
     return(
