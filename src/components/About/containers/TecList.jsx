@@ -1,5 +1,5 @@
 import {FaHtml5, FaCss3, FaReact, FaNodeJs} from 'react-icons/fa'
-import { HTML5, CSS3, JavaScript, TypeScript, React, Vite, Jest, Node,MongoDB, PostgreSQL,SASS, Nest } from '../../../../public/Icons'
+import { HTML5, CSS3, JavaScript, TypeScript, React, Vite, Jest, Node,MongoDB, PostgreSQL,SASS, Nest, Next } from '../../../../public/Icons'
 import '../styles/TecList.sass'
 
 function TecList(){
@@ -13,6 +13,7 @@ function TecList(){
         {name:'TypeScript',icon:<TypeScript className={ICONS_CLASSNAME}/>, link:'https://www.typescriptlang.org/docs/'},
         {name:'React',icon:<React className={ICONS_CLASSNAME}/>, link:'https://legacy.reactjs.org/docs/getting-started.html'},
         {name:'Vite',icon:<Vite className={ICONS_CLASSNAME}/>, link:'https://vitejs.dev/'},
+        {name:'Next',icon:<Next className={ICONS_CLASSNAME}/>, link:'https://nextjs.org/docs'},
         {name:'SASS',icon:<SASS className={ICONS_CLASSNAME}/>, link:'https://sass-lang.com/documentation/'},
         {name:'Node',icon:<Node className={ICONS_CLASSNAME}/>, link:'https://nodejs.org/en/docs'},
         {name:'Nest',icon:<Nest className={ICONS_CLASSNAME}/>, link:'https://docs.nestjs.com/'},
