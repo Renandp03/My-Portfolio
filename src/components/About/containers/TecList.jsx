@@ -1,4 +1,3 @@
-import {FaHtml5, FaCss3, FaReact, FaNodeJs} from 'react-icons/fa'
 import { HTML5, CSS3, JavaScript, TypeScript, React, Vite, Jest, Node,MongoDB, PostgreSQL,SASS, Nest, Next } from '../../../../public/Icons'
 import '../styles/TecList.sass'
 
