@@ -1,8 +1,11 @@
 import '../styles/Project.sass'
-function Project(){
+function Project(props){
+    const {domain} = props
+    const URL = import.meta.env.VITE_GET_ICONS_URL
+
+
     return(
-        <div className='Project'>
-        </div>
+        <img className='Project' src={`${URL}?domain=${domain}&sz=128`} alt='image'/>
     )
 }
 
