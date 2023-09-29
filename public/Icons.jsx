@@ -85,7 +85,6 @@ export function Vite(props){
     )
 }
 
-
 export function Jest(props){
     const {className} = props
     return(
@@ -177,3 +176,29 @@ export function Next(props){
         </svg>
     )
 }
+
+export function ProjectsDetail(props){
+    const {className} = props
+    return(
+        <svg width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg" className={className}>
+            <circle cx="5" cy="125" r="5" fill="#D9D9D9"/>
+            <circle cx="35" cy="65" r="5" fill="#D9D9D9"/>
+            <circle cx="35" cy="95" r="5" fill="#D9D9D9"/>
+            <circle cx="35" cy="125" r="5" fill="#D9D9D9"/>
+            <circle cx="65" cy="35" r="5" fill="#D9D9D9"/>
+            <circle cx="65" cy="65" r="5" fill="#D9D9D9"/>
+            <circle cx="65" cy="95" r="5" fill="#D9D9D9"/>
+            <circle cx="65" cy="125" r="5" fill="#D9D9D9"/>
+            <circle cx="95" cy="35" r="5" fill="#D9D9D9"/>
+            <circle cx="95" cy="65" r="5" fill="#D9D9D9"/>
+            <circle cx="95" cy="95" r="5" fill="#D9D9D9"/>
+            <circle cx="95" cy="125" r="5" fill="#D9D9D9"/>
+            <circle cx="125" cy="5" r="5" fill="#D9D9D9"/>
+            <circle cx="125" cy="35" r="5" fill="#D9D9D9"/>
+            <circle cx="125" cy="65" r="5" fill="#D9D9D9"/>
+            <circle cx="125" cy="95" r="5" fill="#D9D9D9"/>
+            <circle cx="125" cy="125" r="5" fill="#D9D9D9"/>
+        </svg>
+    )
+}
+

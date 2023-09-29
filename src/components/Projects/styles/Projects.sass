@@ -3,7 +3,10 @@
 #Projects
     display: grid
     grid-template-columns: 1fr 1fr
-    margin: 150px
+    place-items: center
+    margin: 150px 0px
+    @media( max-width: 750px)
+        grid-template-columns: 1fr
 
 .Projects__Title
     font-size: 124px
@@ -12,8 +15,18 @@
     grid-row-start: 1
     grid-row-end: 3 
     max-width: 400px
+    margin-bottom: 40px
+    @media( max-width: 750px)
+        font-size: 100px
+        grid-row-end: 2
 
-.Project__Title__Decorator
+.Projects__Title__Decorator
     position: absolute
     right: 0
-    bottom: 40px
+    bottom: 25px
+    width: 100px
+    height: 100px
+    *
+        fill: variables.$primary-color
+    @media( max-width: 750px)
+        bottom: 20px
